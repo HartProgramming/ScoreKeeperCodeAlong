@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    text-align: left;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img{
+    width: 600px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+.winner{
+    color: green;
+}
+.loser{
+    color: red;
+}
+section{
+    justify-content: center;
+    margin: auto;
+    width: 600px;
+    height: 550px;
+    border: 2px solid black;
+}
+div{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: -3px;
+}
+#divbtn{
+    justify-content: space-evenly;
+    margin: auto;
+    position: relative;
+    display: flex;
+    margin-top: 11px;
+    padding: 0;
+
+}
+button{
+width: 199px;
+height: 40px;
+margin: 0;
+}
+#one{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#two{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#reset{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#one:hover{
+    background-color: rgb(90, 145, 90);
+}
+#two:hover{
+    background-color: rgb(71, 71, 248);
+}
+#reset:hover{
+    background-color: rgb(247, 72, 72);
+}
